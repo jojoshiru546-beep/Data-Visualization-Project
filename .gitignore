@@ -31,6 +31,7 @@ data/processed/*.csv
 data/processed/*.xlsx
 data/processed/*.gz
 data/processed/*.parquet
+data/processed/global_health_enriched.csv.gz
 
 # ── OS files ──────────────────────────────────────────────────────────────────
 .DS_Store
@@ -56,4 +57,4 @@ test_suite_analysis/
 test_suite_analysis
 managed_context/
 managed_context
-data/processed/global_health_enriched.csv.gz
+
