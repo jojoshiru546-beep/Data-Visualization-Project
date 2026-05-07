@@ -32,6 +32,9 @@ data/processed/*.xlsx
 data/processed/*.gz
 data/processed/*.parquet
 data/processed/global_health_enriched.csv.gz
+*.pkl
+*.joblib
+models/
 
 # ── OS files ──────────────────────────────────────────────────────────────────
 .DS_Store
@@ -57,4 +60,8 @@ test_suite_analysis/
 test_suite_analysis
 managed_context/
 managed_context
+
+# Streamlit
+__pycache__/
+.streamlit/
 
